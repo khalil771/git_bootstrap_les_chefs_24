@@ -1,0 +1,17 @@
+:root .barre{
+
+}
+
+:root .barre a{
+    color: black;
+}
+    :root .ligne{
+        color: white;
+    }
+    :root .deroulant img{
+    width: 100%;
+    
+    filter: brightness(50%);
+    top: 0px;
+    position:;
+    }
