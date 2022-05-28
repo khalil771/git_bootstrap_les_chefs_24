@@ -48,3 +48,10 @@ a{
 .suite{
     flex-wrap: wrap;
 }
+.noir{
+    background-color: #060405;
+}
+
+.para5 p{
+    color: white;
+}
