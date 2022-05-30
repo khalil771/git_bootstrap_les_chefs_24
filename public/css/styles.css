@@ -1,3 +1,24 @@
+header{
+    background-image:  url(/public/images/banner1.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    filter: brightness(50%);
+    background-position: center;
+    position: relative;
+}
+
+header nav{
+    position: fixed;
+}
+
+nav{
+    position: fixed !important;
+}
+.navbar ul{
+    position: ;
+
+}
 
 :root .barre a{
     color: black;
@@ -24,6 +45,8 @@
     }
     .containers {
         background-image: url(/public/images/main_bg.jpg);
+        filter: brightness();
+
     }
     .blanc{
         background-color: white;
@@ -57,7 +80,7 @@ a{
 }
 .fond{
     background-image: url(/public/images/book_table_bg.jpg);
-    height: 400px;
+    
     border-radius: 5%;
 }
 .num{
@@ -85,14 +108,12 @@ a{
 }
 .leblog{
     border-radius: 10%;
-    
 }
 .leblog img{
     border-radius: 7%;
 }
 .fond4{
     background-image: url(/public/images/testimonials_background.jpg);
-    
     width: 100%;
 }
 .fin{
@@ -101,5 +122,34 @@ a{
 .fin img{
     border-radius: 50%;
     height: 170px;
+}
+.geo{
+    background-color: #a62636;
+    border-radius: 5%;
+
+}
+.geo p{
+    color: white; 
+}
+header{
+    position: relative;
+}
+.grand{
+    font-size: 35px;
+    color: white;
+}
+.fondfin{
+    background-image: url(/public/images/footer_background.jpg);
+    width: 100%;
+    color: white;
+}
+.imagefond{
+    
+    
+}
+@media screen and (min-width=320px) and (max-width=767px) {
+    .fond {
+        height: 400vh;
+    }
     
 }
